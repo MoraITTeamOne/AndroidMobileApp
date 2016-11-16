@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abcd.flash">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoadingPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginPage" />
+        <activity android:name=".SignUpPage" />
+        <activity android:name=".TrainStatusPage" />
+        <activity android:name=".Selection1Page" />
+        <activity android:name=".ServicePage" />
+        <activity android:name=".Selection2Page" />
+        <activity android:name=".CrowdnessPage" />
+        <activity android:name=".SeatsAvlPage" />
+        <activity android:name=".Accident" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MapPage" />
+        <activity android:name=".UploadsPage" />
+        <activity android:name=".FoodsAvlPage" />
+        <activity android:name=".ServiceGvPage" />
+        <activity android:name=".ServiceGtPage" />
+        <activity android:name=".NewsFeedPage" />
+        <activity
+            android:name=".WelcomePage"
+            android:label="@string/title_activity_welcome_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WelcomeUPage" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".BCrowdnessPage" />
+        <activity android:name=".BMapPage" />
+        <activity android:name=".BSeatsAvlPage" />
+        <activity android:name=".BServiceGv" />
+        <activity android:name=".BUploadsPage"></activity>
+    </application>
+
+</manifest>

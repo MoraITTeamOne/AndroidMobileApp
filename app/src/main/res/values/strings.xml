@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">FLASH</string>
+
+    <String-array name="trains_Names">
+        <item>Rajarata Rajina A/pura to Mathara</item>
+        <item>Rajarata Rajina Mathara to A/pura</item>
+        <item>Ruhunu Kumari</item>
+        <item>Uththara Devi</item>
+        <item>Yal Devi</item>
+        <item>Udarata manike</item>
+        <item>Podi Manike</item>
+        <item>Galu Kumari</item>
+
+
+    </String-array>
+
+    <String-array name="cities_Names">
+        <item>Apura</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+
+
+    </String-array>
+    <string name="title_activity_welcome_page">WelcomePage</string>
+
+
+</resources>
+
+<RadioGroup android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:layout_below="@+id/spinner">
+
+<RadioGroup android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/textView7" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_marginTop="41dp" android:id="@+id/radioGroup">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crowdness" android:textSize="20dp" android:textStyle="bold" android:id="@+id/textView7" android:textColor="#ffffff" />
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Heavy" android:textSize="15dp" android:textStyle="bold" android:id="@+id/radioButton" android:layout_gravity="center_horizontal" android:textColor="#ffffff" />
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium" android:textSize="15dp" android:textStyle="bold" android:id="@+id/radioButton2" android:layout_gravity="center_horizontal" android:textColor="#ffffff" />
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Light" android:textSize="15dp" android:textStyle="bold" android:id="@+id/radioButton3" android:layout_gravity="center_horizontal" android:textColor="#ffffff" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To Upload Comments N Photos" android:textSize="20dp" android:textStyle="bold" android:id="@+id/textView7" android:textColor="#ffffff" android:layout_alignTop="@+id/spinner2" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+</RadioGroup>
+
+
+</RadioGroup>
